@@ -1,0 +1,62 @@
+<!-- MINI-PROJECT: Mini-project: Vẽ UI và tạo trang HTML
+Yêu cầu: Vẽ ảnh phác thảo UI một website học tập Bài 1 trên canvas, xuất ảnh PNG, tạo file index.html bám theo ảnh vẽ, đưa cả ảnh và file HTML lên GitHub repo cá nhân, nộp link GitHub chứa đủ hình vẽ và tệp HTML.
+
+Repo đề xuất:
+- index.html
+- ui-sketch.png hoặc assets/ui-sketch.png
+- README.md
+
+TODO: Tự gõ HTML theo ảnh phác thảo UI đã vẽ. -->
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini-project Bài 1</title>
+</head>
+<body>
+ <header>
+    <h1>Chào Mừng Đến Với Website Học Tập</h1>
+    <p>Hành trình vạn dặm bắt đầu từ một bước chân</p>
+  </header>
+
+  <nav>
+    <a href="#tong-quan">Tổng Quan</a>
+    <a href="#bai-hoc">Bài Học Chính</a>
+    <a href="#tai-lieu">Tài Liệu Tham Khảo</a>
+  </nav>
+
+  <main>
+
+    <section id="tong-quan">
+      <h2>1. Tổng Quan Bài Học</h2>
+      <p>Đây là nơi bạn giới thiệu mục tiêu của Bài 1, những kiến thức cốt lõi mà người học sẽ đạt được sau khi hoàn thành.</p>
+    </section>
+
+    <section id="bai-hoc">
+      <h2>2. Nội Dung Bài Học</h2>
+      <p>Chi tiết các bước thực hiện bài học:</p>
+      <ul>
+        <li><strong>Bước 1:</strong> Phác thảo ý tưởng UI lên Canvas.</li>
+        <li><strong>Bước 2:</strong> Chuyển đổi ý tưởng thành mã code HTML Semantic.</li>
+        <li><strong>Bước 3:</strong> Đẩy sản phẩm lên GitHub để lưu trữ và chia sẻ.</li>
+      </ul>
+    </section>
+
+    <section id="tai-lieu">
+      <h2>3. Tài Liệu Tham Khảo</h2>
+      <p>Các liên kết hữu ích để đào sâu kiến thức:</p>
+      <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">Học HTML tại W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/vi/docs/Web/HTML" target="_blank">Tài liệu MDN Web Docs (Tiếng Việt)</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Mini-project Bài 1. Được thiết kế bởi [Tên Của Bạn]</p>
+  </footer>
+</body>
+</html>
